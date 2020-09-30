@@ -1,0 +1,12 @@
+#pragma once
+
+enum TEXTURE_ITEM
+{
+	EMPTY,
+	DIRT,
+	GRASS,
+	STONE,
+	COBBLESTONE,
+	BEDROCK,
+	END
+};

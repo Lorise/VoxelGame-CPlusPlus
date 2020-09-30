@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Файлы исходного кода">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы исходного кода\App">
+      <UniqueIdentifier>{0e552213-dc75-4fc2-8c0b-1725444f955e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Game component">
+      <UniqueIdentifier>{44e10d4c-60f0-4366-a7c4-b8843f767e4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Game component\Input">
+      <UniqueIdentifier>{781dfce7-0dbe-4187-aa9f-5585c34cd762}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Other">
+      <UniqueIdentifier>{1fdb939f-895f-44f4-96a5-e14d2eca967c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Game component\Global var">
+      <UniqueIdentifier>{05769e3d-e5a9-4cab-9d64-f1ac0b33f100}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Game component\Object">
+      <UniqueIdentifier>{29675d1e-7c17-4dc3-9e46-e5e2f1417c98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Game component\UI">
+      <UniqueIdentifier>{b497e05d-b412-4c27-9d08-65d572420b39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Other\Struct">
+      <UniqueIdentifier>{235e821f-963e-4c5d-8e35-1362accc5506}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameLib.h">
+      <Filter>Файлы исходного кода</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Файлы исходного кода\App</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>Файлы исходного кода\App</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers.h" />
+    <ClInclude Include="GlobalPointer.h">
+      <Filter>Файлы исходного кода\Game component\Global var</Filter>
+    </ClInclude>
+    <ClInclude Include="Core.h">
+      <Filter>Файлы исходного кода\Game component\Global var</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSystem.h">
+      <Filter>Файлы исходного кода\Game component\Global var</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundSystem.h">
+      <Filter>Файлы исходного кода\Game component\Global var</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Файлы исходного кода\Game component\Global var</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Файлы исходного кода\Game component\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>Файлы исходного кода\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Файлы исходного кода\Game component</Filter>
+    </ClInclude>
+    <ClInclude Include="iInputKeyboard.h">
+      <Filter>Файлы исходного кода\Game component\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="iInputMouse.h">
+      <Filter>Файлы исходного кода\Game component\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Файлы исходного кода\Game component\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Файлы исходного кода\Game component\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadPool.h">
+      <Filter>Файлы исходного кода\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>Файлы исходного кода\Game component</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Файлы исходного кода\Game component</Filter>
+    </ClInclude>
+    <ClInclude Include="Frustum.h">
+      <Filter>Файлы исходного кода\Game component\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Файлы исходного кода\Game component</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>Файлы исходного кода\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Файлы исходного кода\Game component\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Файлы исходного кода\Game component\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Label.h">
+      <Filter>Файлы исходного кода\Game component\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Background.h">
+      <Filter>Файлы исходного кода\Game component\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex2.h">
+      <Filter>Файлы исходного кода\Other\Struct</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex3.h">
+      <Filter>Файлы исходного кода\Other\Struct</Filter>
+    </ClInclude>
+    <ClInclude Include="Rect.h">
+      <Filter>Файлы исходного кода\Other\Struct</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Window.cpp">
+      <Filter>Файлы исходного кода\App</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>Файлы исходного кода\App</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalPointer.cpp">
+      <Filter>Файлы исходного кода\Game component\Global var</Filter>
+    </ClCompile>
+    <ClCompile Include="Core.cpp">
+      <Filter>Файлы исходного кода\Game component\Global var</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundSystem.cpp">
+      <Filter>Файлы исходного кода\Game component\Global var</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Файлы исходного кода\Game component\Global var</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Файлы исходного кода\Game component\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="iInputKeyboard.cpp">
+      <Filter>Файлы исходного кода\Game component\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="iInputMouse.cpp">
+      <Filter>Файлы исходного кода\Game component\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Файлы исходного кода\Game component\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Файлы исходного кода\Game component\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadPool.cpp">
+      <Filter>Файлы исходного кода\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Файлы исходного кода\Game component</Filter>
+    </ClCompile>
+    <ClCompile Include="Frustum.cpp">
+      <Filter>Файлы исходного кода\Game component\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Random.cpp">
+      <Filter>Файлы исходного кода\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Файлы исходного кода\Game component\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Файлы исходного кода\Game component\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Label.cpp">
+      <Filter>Файлы исходного кода\Game component\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Background.cpp">
+      <Filter>Файлы исходного кода\Game component\UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

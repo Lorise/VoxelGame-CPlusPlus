@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Файлы исходного кода">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Option">
+      <UniqueIdentifier>{d90a56e2-fb89-4efa-b69e-66fe1f0cf4fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\GameScene">
+      <UniqueIdentifier>{fdc70245-1219-4fd5-9103-bc716801f887}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\GameScene\PlayScene">
+      <UniqueIdentifier>{d762259e-23eb-4dc5-a572-06b1f4e75ebe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generator">
+      <UniqueIdentifier>{e53355f4-e7c7-4ab5-b5cc-0d2b395470af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generator\Precedural">
+      <UniqueIdentifier>{f51e5797-17f8-40a9-aa40-f94dfea98199}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Map object">
+      <UniqueIdentifier>{1b96935c-2a53-4aad-a973-b0a09acca300}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Map object\Map">
+      <UniqueIdentifier>{fb35b70e-57e5-4bf7-9a44-5c0b6db13b4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Map object\Map\Base">
+      <UniqueIdentifier>{4e3d0d5d-4e1e-493d-be79-f52d17151b8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Map object\Map\Blocks">
+      <UniqueIdentifier>{89c778c0-f3d2-4be0-bf11-50daeee3c2d2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>Файлы исходного кода\Option</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="FastNoise.cpp">
+      <Filter>Generator\Precedural</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseGenerator.cpp">
+      <Filter>Generator</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuScene.cpp">
+      <Filter>Файлы исходного кода\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayScene.cpp">
+      <Filter>Файлы исходного кода\GameScene\PlayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugScreen.cpp">
+      <Filter>Файлы исходного кода\GameScene\PlayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseMenu.cpp">
+      <Filter>Файлы исходного кода\GameScene\PlayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Файлы исходного кода\Map object</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockAir.cpp">
+      <Filter>Файлы исходного кода\Map object\Map\Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockCobblestone.cpp">
+      <Filter>Файлы исходного кода\Map object\Map\Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockDirt.cpp">
+      <Filter>Файлы исходного кода\Map object\Map\Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockGrass.cpp">
+      <Filter>Файлы исходного кода\Map object\Map\Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockStone.cpp">
+      <Filter>Файлы исходного кода\Map object\Map\Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockWater.cpp">
+      <Filter>Файлы исходного кода\Map object\Map\Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="Chunk.cpp">
+      <Filter>Файлы исходного кода\Map object\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="ChunkManager.cpp">
+      <Filter>Файлы исходного кода\Map object\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockCoal.cpp">
+      <Filter>Файлы исходного кода\Map object\Map\Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockDiamond.cpp">
+      <Filter>Файлы исходного кода\Map object\Map\Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockGold.cpp">
+      <Filter>Файлы исходного кода\Map object\Map\Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockIron.cpp">
+      <Filter>Файлы исходного кода\Map object\Map\Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource.cpp">
+      <Filter>Файлы исходного кода\Option</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Headers.h" />
+    <ClInclude Include="Config.h">
+      <Filter>Файлы исходного кода\Option</Filter>
+    </ClInclude>
+    <ClInclude Include="Control.h">
+      <Filter>Файлы исходного кода\Option</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine.h">
+      <Filter>Файлы исходного кода</Filter>
+    </ClInclude>
+    <ClInclude Include="Directories.h">
+      <Filter>Файлы исходного кода\Option</Filter>
+    </ClInclude>
+    <ClInclude Include="FastNoise.h">
+      <Filter>Generator\Precedural</Filter>
+    </ClInclude>
+    <ClInclude Include="iGenerator.h">
+      <Filter>Generator</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseGenerator.h">
+      <Filter>Generator</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuScene.h">
+      <Filter>Файлы исходного кода\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayScene.h">
+      <Filter>Файлы исходного кода\GameScene\PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugScreen.h">
+      <Filter>Файлы исходного кода\GameScene\PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseMenu.h">
+      <Filter>Файлы исходного кода\GameScene\PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="UiTextureId.h">
+      <Filter>Файлы исходного кода\Map object</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Файлы исходного кода\Map object</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureBlockId.h">
+      <Filter>Файлы исходного кода\Map object\Map\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockAir.h">
+      <Filter>Файлы исходного кода\Map object\Map\Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockCobblestone.h">
+      <Filter>Файлы исходного кода\Map object\Map\Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockDirt.h">
+      <Filter>Файлы исходного кода\Map object\Map\Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockGrass.h">
+      <Filter>Файлы исходного кода\Map object\Map\Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockStone.h">
+      <Filter>Файлы исходного кода\Map object\Map\Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockWater.h">
+      <Filter>Файлы исходного кода\Map object\Map\Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="Chunk.h">
+      <Filter>Файлы исходного кода\Map object\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="ChunkCoord.h">
+      <Filter>Файлы исходного кода\Map object\Map\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="ChunkManager.h">
+      <Filter>Файлы исходного кода\Map object\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="ChunkOffset.h">
+      <Filter>Файлы исходного кода\Map object\Map\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockGold.h">
+      <Filter>Файлы исходного кода\Map object\Map\Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockIron.h">
+      <Filter>Файлы исходного кода\Map object\Map\Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockDiamond.h">
+      <Filter>Файлы исходного кода\Map object\Map\Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockCoal.h">
+      <Filter>Файлы исходного кода\Map object\Map\Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockId.h">
+      <Filter>Файлы исходного кода\Map object\Map\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Файлы исходного кода\Option</Filter>
+    </ClInclude>
+    <ClInclude Include="Blocks.h">
+      <Filter>Файлы исходного кода\Map object\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>Файлы исходного кода\Map object\Map\Blocks</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,11 @@
+#pragma once
+#include "BlockAir.h"
+#include "BlockCoal.h"
+#include "BlockCobblestone.h"
+#include "BlockDiamond.h"
+#include "BlockDirt.h"
+#include "BlockGold.h"
+#include "BlockGrass.h"
+#include "BlockIron.h"
+#include "BlockStone.h"
+#include "BlockWater.h"
